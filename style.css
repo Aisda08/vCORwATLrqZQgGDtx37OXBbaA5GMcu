@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    height: 100vh;           /* altura da tela inteira */
+    margin: 0;
+    background-color: #00000066;
+}
+
+#card {
+    color: white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.card-data {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+}
+
+.student-validation {
+    padding: 0 14%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
