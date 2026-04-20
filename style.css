@@ -1,13 +1,11 @@
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    height: 100vh;           /* altura da tela inteira */
     min-height: 100dvh;
     margin: 0;
     background-color: #00000066;
-    padding: 16px;
-    box-sizing: border-box;
-    overflow-y: auto;
 }
 
 #card {
@@ -36,3 +34,6 @@ body {
         height: 100vw;
     }
 }
+
+
+
