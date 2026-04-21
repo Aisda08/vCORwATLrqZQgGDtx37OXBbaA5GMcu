@@ -12,6 +12,10 @@ body {
 #card {
     color: white;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    width: 630px;
+    height: 331px;
+    align-self: center;
+    flex-shrink: 0;
 }
 
 .card-data {
